@@ -1,0 +1,22 @@
+<!doctype html>
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <title>working</title>
+ <script src="aes.js"></script>
+</head>
+<body onLoad="run();">
+<script>
+var encrypted;
+    function run(){
+        //FORMAT INPUT AS FOLLOWS: (URL)?(text string)&(password)
+        var urlArray = location.search.slice(1).split("&");
+        encrypted = CryptoJS.AES.encrypt(urlArray[0], urlArray[1]);
+        window.document.title = encrypted;
+	   document.getElementById("myLink").innerHTML=encrypted;
+
+    }
+</script>
+<a id="myLink" href = test.html></a>
+</body>
+</html>
