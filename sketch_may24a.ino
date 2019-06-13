@@ -196,7 +196,7 @@ void loop() {
         /*digitalWrite(13, LOW);                
                                 glow_magenta();*/
                                 control_time_loop=0;    
-                                Serial.println("TIMER MODE SAAAAAAAAAAAAAAALLLLLLLLLAAAA");
+                                Serial.println("In TIMER MODE");
                                 glow_red();
                                 
                                   
