@@ -2,7 +2,7 @@
 This work of mine include work of 
 Kevin Darrah (https://www.kevindarrah.com/), 
 Pattrick-Hood Daniel(https://www.newbiehack.com/), for embedded code of ESP32. 
-Atmega8, android app, server code, hardware design is completely developed by me. No part of them is copied from anywhere, these are completly build from scratch.
+Other then that Atmega8, android app, server code, hardware design is completely developed by me. No part of them is copied from anywhere, these are completly build from scratch.
 Development of Wi-Fi smart plug included these 3 main parts
 1. Embedded Code, 
 2. Server and 
